@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: SIZES.large,
     color: COLORS.primary,
-    fontFamily: FONT.bold,
+    fontFamily: "bold",
   },
   pointsContainer: {
     marginVertical: SIZES.small,
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   pointText: {
     fontSize: SIZES.medium - 2,
     color: COLORS.gray,
-    fontFamily: FONT.regular,
+    fontFamily: "regular",
     marginLeft: SIZES.small,
   },
 });
